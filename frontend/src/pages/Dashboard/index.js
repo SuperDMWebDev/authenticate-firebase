@@ -32,14 +32,14 @@ function Dashboard() {
     fetchData(token);
   }, [user, loading]);
 
-  useEffect(() => {
-    const countTime = setInterval(() => {
-      setTimer((timer) => timer + 1);
-    }, [1000]);
-    return () => {
-      clearInterval(countTime);
-    };
-  });
+  // useEffect(() => {
+  //   const countTime = setInterval(() => {
+  //     setTimer((timer) => timer + 1);
+  //   }, [1000]);
+  //   return () => {
+  //     clearInterval(countTime);
+  //   };
+  // });
   const changeProfile = () => {
     navigate('/profile');
   };
