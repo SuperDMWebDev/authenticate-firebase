@@ -14,7 +14,7 @@ function Profile() {
     }
     console.log('user ', user);
   }, [user, loading]);
-  const submitProfile = () => {
+  const submitProfile = async () => {
     changeProfile(user, name);
     navigate('/dashboard');
   };
