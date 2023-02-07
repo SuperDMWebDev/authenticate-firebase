@@ -23,3 +23,10 @@
 .dashboard div {
   margin-top: 7px;
 }
+.task-container div {
+  display: flex;
+  justify-content: space-between;
+}
+.flex button {
+  margin-top: 7px;
+}
